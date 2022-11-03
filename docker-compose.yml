@@ -12,6 +12,4 @@ services:
       - /opt/home-assistant/config:/config
     ports:
       - 8123:8123
-    devices:
-      - /opt/home-assistant/device:/path/to/device #optional
     restart: unless-stopped
